@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalliSpa</title>
+    <link rel="icon" href="../Imagenes/Logo1.png" type="image/x-icon">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            background-color: #EDE9E2;
+            font-family: "Libre Baskerville", serif;
+            color: #000000;
+        }
+
+        .top-bar {
+            width: 1500px;
+            height: 155px;
+            background-color: #736455;
+            margin-top: 0;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .logo {
+            margin-right: auto;
+        }
+
+        .logo img {
+            height: 100px; 
+            transition: height 0.3s ease;
+        }
+
+        .logo img:hover {
+            height: 120px; 
+        }
+
+        .menu-text {
+            margin-right: 120px; 
+            display: flex;
+
+        }
+
+        .menu-icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #EDE9E2;
+            font-size: 18px;
+            margin: 0 35px 0 0; 
+            padding: 10px 15px;
+            border-radius: 15px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu img {
+            height: 60px; 
+            transition: height 0.3s ease;
+        }
+
+        .menu img:hover {
+            height: 60px; 
+        }
+
+        .description {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .description img {
+            width: 720px;
+            height: 620px;
+            margin-right: 20px;
+            border-radius: 50px;
+        }
+
+        .description-text {
+            width: 60%;
+        }
+
+        .description-text h1 {
+            font-size: 46px;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .description-text p {
+            font-size: 26px;
+            line-height: 1.5;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="../Imagenes/Logo1.png" alt="Logo">
+        </div>
+        <div class="menu menu-text">
+            <span class="menu-text"><a href="Inicio.html">Inicio</a></span>
+            <span class="menu-text"><a href="Servicios.html">Servicios</a></span>
+            <span class="menu-text"><a href="Contactanos.html">Contáctanos</a></span>
+        </div>
+        <div class="menu menu-icons">
+            <a href="Usuario.html">
+                <img src="../Imagenes/Usuario.png" alt="Icono2">
+            </a>
+        </div>
+    </div>
+
+    <div class="description">
+        <img src="../Imagenes/Fondo2.png" alt="CalliSpa Image">
+        <div class="description-text">
+            <h1>¿Qué es CalliSpa?</h1>
+            <p>CalliSpa es dónde tu cuerpo, tu mente, tu alma podrán tener la tranquilidad la paz y ese momento para ti mismo con los servicios que ofrecemos: masajes, terapias y sobre todo con ese amor y respeto que mereces a ti mismo.</p>
+        </div>
+    </div>
+</body>
+</html>
